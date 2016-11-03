@@ -474,10 +474,6 @@ getComments: 获取压缩文件中的注释链表
 getEntries : 获取压缩文件中的文件对象
 ```
 
-//[readme-cn.md]: https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md
-
-
-
 [activity.java]: https://github.com/yk963307153/Android_technology/blob/develop/OurDemo/app/src/main/java/com/team/group/utils/ActivityUtils.java
 
 [app.java]: https://github.com/yk963307153/Android_technology/blob/develop/OurDemo/app/src/main/java/com/team/group/utils/app.java
