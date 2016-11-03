@@ -4,7 +4,7 @@
 
 <table>
     <tr>
-        <td><font size="3" color="red">注意：MacDown兼容 HTML，请尽量使用HTML前端语音进行说明</td>
+        <td><font size="3" color="red">注意：MacDown兼容 HTML，请尽量使用HTML前端语言进行说明</td>
     </tr>
 </table>
 
