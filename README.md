@@ -7,15 +7,15 @@
 
 以及一些优秀的资源搜集 例如：http://www.androidcat.com/?step=3&view=CatFragment
 
+### demo项目中有完整的框架以及一些问题的解决
+
+# 这些正在筹划中。。。
+
+### 前期为邀请方式
 
 
-# 这些正在筹划中
 
-前期为邀请方式
-
-
-
-为方便查找，已进行大致归类，其目录如下所示：
+为方便查找，工具类进行大致归类：
 > - **Activity相关→[activity.java]**
 ```
 isActivityExists : 判断是否存在Activity
