@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 都是一些高级权限 我们尝试申请设备管理员 一旦用户同意激活 我们的 应用就具备了如下功能 -->
+    <uses-policies>
+
+        <!-- 重置密码 -->
+        <reset-password />
+        <!-- 强制锁屏 -->
+        <force-lock />
+        <!-- 清除数据 -->
+        <wipe-data />
+    </uses-policies>
+
+</device-admin>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itcast="http://schemas.android.com/apk/res/zz.itcast.mobilesafez19"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/my_title_style"
+        android:text="设置中心" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <zz.itcast.mobilesafez19.view.SettingItemView
+                android:id="@+id/siv_auto_update"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid_btn_bg"
+                itcast:descs="自动更新设置已经打开#自动更新设置没有打开"
+                itcast:title="自动更新设置" >
+            </zz.itcast.mobilesafez19.view.SettingItemView>
+
+            <zz.itcast.mobilesafez19.view.SettingItemView
+                android:id="@+id/siv_black_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid_btn_bg"
+                itcast:descs="黑名单设置已经打开#黑名单设置没有打开"
+                itcast:title="黑名单设置" >
+            </zz.itcast.mobilesafez19.view.SettingItemView>
+
+            <zz.itcast.mobilesafez19.view.SettingItemView
+                android:id="@+id/siv_coming_number"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid_btn_bg"
+                itcast:descs="来电显示已经打开#来电显示没有打开"
+                itcast:title="来电显示设置" >
+            </zz.itcast.mobilesafez19.view.SettingItemView>
+
+            <RelativeLayout
+                android:id="@+id/rl_channge_coming_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid_btn_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/coming_number_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="来电显示风格设置"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_coming_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/coming_number_setting"
+                    android:layout_marginTop="10dp"
+                    android:text="天空蓝"
+                    android:textColor="#CCCCCC" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/next" />
+            </RelativeLayout>
+
+            <zz.itcast.mobilesafez19.view.SettingItemView
+                android:id="@+id/siv_app_lock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid_btn_bg"
+                itcast:descs="程序锁已经打开#程序锁没有打开"
+                itcast:title="程序锁设置" >
+            </zz.itcast.mobilesafez19.view.SettingItemView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
