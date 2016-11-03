@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/my_title_style"
+        android:text="应用管理" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_inner_space"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="内部空间：" />
+
+        <TextView
+            android:id="@+id/tv_outter_space"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SD卡空间：" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/lv_app_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </ListView>
+
+        <!-- 一定让标题盖在ListView上  后渲染 -->
+
+        <TextView
+            android:id="@+id/tv_app_list_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#999999"
+            android:padding="10dp"
+            android:text="用户应用" />
+    </RelativeLayout>
+
+</LinearLayout>

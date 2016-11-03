@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#D5185A"
+        android:gravity="center"
+        android:text="我是主界面"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text="安全卫士开学版，度过了两个月的暑假，终于开学了，好开心啊，又可以见到我心爱的学妹啦" />
+
+    <!-- 宫格样式的控件 -->
+
+
+		<LinearLayout
+		    android:id="@+id/adLayout"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_horizontal">
+		</LinearLayout>
+
+    <!-- 3。0以下的低版本会有不兼容 listSelector这个属性 -->
+
+    <GridView
+        android:id="@+id/gv_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:verticalSpacing="15dp" >
+    </GridView>
+
+</LinearLayout>

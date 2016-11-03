@@ -1,0 +1,173 @@
+# view AndroidManifest.xml #generated:11
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class net.youmi.android.AdBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class net.youmi.android.AdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class net.youmi.android.AdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class zz.itcast.mobilesafez19.activity.AToolsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class zz.itcast.mobilesafez19.activity.AVActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class zz.itcast.mobilesafez19.activity.AppLockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class zz.itcast.mobilesafez19.activity.AppManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class zz.itcast.mobilesafez19.activity.BlackNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class zz.itcast.mobilesafez19.activity.BlackNumberActivity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class zz.itcast.mobilesafez19.activity.ClearCacheActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class zz.itcast.mobilesafez19.activity.ContactsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class zz.itcast.mobilesafez19.activity.HomepageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class zz.itcast.mobilesafez19.activity.InputPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class zz.itcast.mobilesafez19.activity.NetTrafficActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class zz.itcast.mobilesafez19.activity.NumberLocationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class zz.itcast.mobilesafez19.activity.PhoneSafeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class zz.itcast.mobilesafez19.activity.ProcessManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class zz.itcast.mobilesafez19.activity.ProcessManagerSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class zz.itcast.mobilesafez19.activity.Setting1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class zz.itcast.mobilesafez19.activity.Setting2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class zz.itcast.mobilesafez19.activity.Setting3Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class zz.itcast.mobilesafez19.activity.Setting4Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class zz.itcast.mobilesafez19.activity.SettingCenterActivtiy { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class zz.itcast.mobilesafez19.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class zz.itcast.mobilesafez19.app.MyApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class zz.itcast.mobilesafez19.receiver.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class zz.itcast.mobilesafez19.receiver.MyDeviceReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class zz.itcast.mobilesafez19.receiver.MyWidgetReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class zz.itcast.mobilesafez19.receiver.SMSReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:182
+-keep class zz.itcast.mobilesafez19.service.AppLockService { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class zz.itcast.mobilesafez19.service.BlackNumberService { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class zz.itcast.mobilesafez19.service.ComingNumberService { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class zz.itcast.mobilesafez19.service.LocationServer { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class zz.itcast.mobilesafez19.service.LockScreenSercivce { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class zz.itcast.mobilesafez19.service.MusicService { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class zz.itcast.mobilesafez19.service.SMSService { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class zz.itcast.mobilesafez19.service.WidgetService { <init>(...); }
+
+# view res/layout/activity_setting_center.xml #generated:21
+# view res/layout/activity_setting_center.xml #generated:30
+# view res/layout/activity_setting_center.xml #generated:39
+# view res/layout/activity_setting_center.xml #generated:79
+-keep class zz.itcast.mobilesafez19.view.SettingItemView { <init>(...); }
+
+# onClick res/layout/activity_black_number2.xml #generated:15
+-keepclassmembers class * { *** add(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:61
+-keepclassmembers class * { *** allNotSelect(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:45
+-keepclassmembers class * { *** allSelect(...); }
+
+# onClick res/layout/activity_input_pwd.xml #generated:26
+-keepclassmembers class * { *** btnOk(...); }
+
+# onClick res/layout/activity_phone_safe.xml #generated:163
+-keepclassmembers class * { *** changeModuleName(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:69
+-keepclassmembers class * { *** clear(...); }
+
+# onClick res/layout/activity_clearcache.xml #generated:15
+-keepclassmembers class * { *** clearCache(...); }
+
+# onClick res/layout/activity_black_number.xml #generated:64
+-keepclassmembers class * { *** jumpToPage(...); }
+
+# onClick res/layout/activity_setting1.xml #generated:127
+# onClick res/layout/activity_setting2.xml #generated:76
+# onClick res/layout/activity_setting3.xml #generated:68
+# onClick res/layout/activity_setting4.xml #generated:64
+-keepclassmembers class * { *** next(...); }
+
+# onClick res/layout/activity_black_number.xml #generated:57
+-keepclassmembers class * { *** nextPage(...); }
+
+# onClick res/layout/activity_setting2.xml #generated:90
+# onClick res/layout/activity_setting3.xml #generated:82
+# onClick res/layout/activity_setting4.xml #generated:77
+-keepclassmembers class * { *** pre(...); }
+
+# onClick res/layout/activity_black_number.xml #generated:50
+-keepclassmembers class * { *** prePage(...); }
+
+# onClick res/layout/activity_number_location.xml #generated:18
+-keepclassmembers class * { *** query(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:53
+-keepclassmembers class * { *** reverseSelect(...); }
+
+# onClick res/layout/activity_setting3.xml #generated:23
+-keepclassmembers class * { *** selectSafeNumber(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:77
+-keepclassmembers class * { *** setting(...); }
+

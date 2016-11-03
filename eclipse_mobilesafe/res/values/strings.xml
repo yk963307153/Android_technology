@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">萌花你</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="update_url">http://192.168.12.78:8080/z19/version.json</string>
+    <string name="sample_device_admin_description">快来激活我，否则扣奖金1000块钱</string>
+    <string name="sample_device_admin">z19安全卫士</string>
+
+</resources>
