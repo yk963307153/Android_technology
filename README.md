@@ -14,25 +14,37 @@
 
 仅仅为项目中遇到的问题 以及解决办法
 
-以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
-
-动画库：https://github.com/thunderrise/android-TNRAnimationHelper
-
-Android开发人员不得不收集的代码(持续更新中)：https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md
-
 恰当的代码编写规范：https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
+
+Android Studio中 使用插件会使开发更高效：https://github.com/zzz40500/GsonFormat
+
+```
+开发中适配问题：https://github.com/hongyangAndroid/AndroidAutoLayout
+
+另一种使用百分比解决：https://github.com/JulienGenoud/android-percent-support-lib-sample
+```
 
 开发中可使用的框架：http://mp.weixin.qq.com/s?__biz=MzA3MDMyMjkzNg==&mid=2652261699&idx=1&sn=d9b0514c22062c8f76c828a427d6c40d&scene=23&srcid=0907sSKUJ9GhZzxKJxcIjCy1#rd
 
+动画库：https://github.com/thunderrise/android-TNRAnimationHelper
+
+状态栏：https://github.com/laobie/StatusBarUtil
+
+Android开发人员不得不收集的代码(持续更新中)：https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md
+
+
+
+```
 开发中可能用到的效果：
 http://androidblog.cn/index.php/Source/
 
 http://www.open-open.com/lib/view/open1411443332703.html
+```
+
+以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
 
 
 
-
-Android Studio中 使用插件会使开发更高效：https://github.com/zzz40500/GsonFormat
 
 ----
 
