@@ -15,6 +15,7 @@
 仅仅为项目中遇到的问题 以及解决办法
 
 以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
+
 动画库：https://github.com/thunderrise/android-TNRAnimationHelper
 
 Android开发人员不得不收集的代码(持续更新中)：https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md
