@@ -1,7 +1,8 @@
-package com.team.group.utils;
+package com.team.group.ourlibrary.utils;
 
 import java.io.UnsupportedEncodingException;
-import java.util.regex.Pattern;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * <pre>
@@ -12,11 +13,32 @@ import java.util.regex.Pattern;
  * </pre>
  */
 public class StringUtils {
-    private final static Pattern emailer = Pattern
-            .compile("\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*");
+
 
     private StringUtils() {
         throw new UnsupportedOperationException("u can't instantiate me...");
+    }
+
+
+    /**
+     * 判断是否是null或长度为0
+     */
+    public static boolean isNullOrEmpty(String str) {
+        try {
+            if (str == null)
+                return true;
+            if (str.length() == 0)
+                return true;
+            if (str.isEmpty())
+                return true;
+            if (str.replace(" ", "").equalsIgnoreCase("null"))
+                return true;
+            if ("".equals(str.replace(" ", "")))
+                return true;
+        } catch (Exception e) {
+            return true;
+        }
+        return false;
     }
 
 
@@ -39,6 +61,49 @@ public class StringUtils {
     public static boolean isSpace(String s) {
         return (s == null || s.trim().length() == 0);
     }
+
+
+    /**
+     * Unix时间戳转时间字符串
+     *
+     * @param time
+     * @return
+     */
+    public static String TimeSpanFormat(long time) {
+        String date = null;
+        SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd HH:mm");
+        date = df.format(new Date(time));
+        return date;
+    }
+
+    /**
+     * Unix时间戳转时间字符串
+     *
+     * @param time
+     * @return
+     */
+    public static String TimeSpanFormat(String time) {
+        long lon = Long.parseLong(time);
+        String date = null;
+        SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd HH:mm");
+        date = df.format(new Date(lon));
+        return date;
+    }
+
+    /**
+     * Unix时间戳转时间字符串
+     *
+     * @param time
+     * @return
+     */
+    public static String MSStampHHmmStr(long time) {
+        String date = null;
+        SimpleDateFormat df = new SimpleDateFormat("HH:mm");
+        Long aLong = new Long(time);
+        date = df.format(aLong);
+        return date;
+    }
+
 
     /**
      * 判断两字符串是否相等
@@ -351,17 +416,6 @@ public class StringUtils {
         return sb.toString();
     }
 
-    /**
-     * 判断是不是一个合法的电子邮件地址
-     *
-     * @param email
-     * @return
-     */
-    public static boolean isEmail(String email) {
-        if (email == null || email.trim().length() == 0)
-            return false;
-        return emailer.matcher(email).matches();
-    }
 
     /**
      * 字符串转整数
