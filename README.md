@@ -23,17 +23,25 @@ Android开发人员不得不收集的代码(持续更新中)：https://github.co
 
 开发中可使用的框架：http://mp.weixin.qq.com/s?__biz=MzA3MDMyMjkzNg==&mid=2652261699&idx=1&sn=d9b0514c22062c8f76c828a427d6c40d&scene=23&srcid=0907sSKUJ9GhZzxKJxcIjCy1#rd
 
-开发中可能用到的效果：http://www.open-open.com/lib/view/open1411443332703.html
+开发中可能用到的效果：
+http://androidblog.cn/index.php/Source/
+
+http://www.open-open.com/lib/view/open1411443332703.html
+
 
 
 
 Android Studio中 使用插件会使开发更高效：https://github.com/zzz40500/GsonFormat
+
+----
 
 ### demo项目中有完整的框架以及一些问题的解决，正在完善。。。
 
 # 这些都正在筹划中。。。
 
 ### 前期为邀请方式
+----
+
 ##这是一个禁用表情图的套件，避免提交信息时发生服务器500的错误
 ![example](example.jpg)
 
