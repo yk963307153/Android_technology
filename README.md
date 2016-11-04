@@ -12,8 +12,6 @@
 
 该内容仅仅用来交流技术，不要发布无关内容
 
-#### 这并非一个可引用类库
-
 仅仅为项目中遇到的问题 以及解决办法
 
 以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
@@ -36,7 +34,37 @@ Android Studio中 使用插件会使开发更高效：https://github.com/zzz4050
 # 这些都正在筹划中。。。
 
 ### 前期为邀请方式
+##这是一个禁用表情图的套件，避免提交信息时发生服务器500的错误
+![example](example.jpg)
+
+### Download
+
+-------
+
+Gradle:
 
 
+```
+dependencies {
+	compile 'com.github.yk963307153:Android_technology:V0.0.1'
+}
+```
+如果Sycn Now后不能通过，在最外层Gradle中加入：
 
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
 
+使用方法:
+
+ 在xml文件中引入ContainsEmojiEditText
+
+```
+<com.team.group.ourlibrary.widget.ContainsEmojiEditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
