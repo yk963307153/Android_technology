@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/As_Demo.iml" filepath="$PROJECT_DIR$/As_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryUtils/libraryUtils.iml" filepath="$PROJECT_DIR$/libraryUtils/libraryUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeback/swipeback.iml" filepath="$PROJECT_DIR$/swipeback/swipeback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrefreshView/xrefreshView.iml" filepath="$PROJECT_DIR$/xrefreshView/xrefreshView.iml" />
+    </modules>
+  </component>
+</project>
