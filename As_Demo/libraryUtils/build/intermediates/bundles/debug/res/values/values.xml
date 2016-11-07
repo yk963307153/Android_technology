@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="color_black">#000000</color>
-    <color name="color_white">#ffffff</color>
-    <color name="font_color_black">#282828</color>
-    <color name="font_color_line">#E5E1E1</color>
-    <color name="font_color_title">#F7F7F7</color>
-    <string name="app_name">OurLibrary</string>
-</resources>
