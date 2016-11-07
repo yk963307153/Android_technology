@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.team.group.ourlibrary.R;
+import com.team.group.R;
 
 
 /**

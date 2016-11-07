@@ -28,12 +28,12 @@
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-mdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-mdpi/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",

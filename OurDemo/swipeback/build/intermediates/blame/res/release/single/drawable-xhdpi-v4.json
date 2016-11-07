@@ -160,11 +160,11 @@
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/src/main/res/drawable-xhdpi/shadow_bottom.png"
     },
     {
-        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
     }
 ]

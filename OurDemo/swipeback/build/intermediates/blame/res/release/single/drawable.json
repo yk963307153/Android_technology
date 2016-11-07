@@ -52,12 +52,12 @@
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable/abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",

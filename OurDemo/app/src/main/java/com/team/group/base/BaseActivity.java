@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.team.group.activity.R;
+import com.team.group.R;
 import com.team.group.ourlibrary.utils.SystemBarTintManager;
 import com.team.group.utils.DialogUtils;
 
@@ -79,7 +79,7 @@ public abstract class BaseActivity extends SwipeBackActivity {
 //            //设置状态栏与标题栏颜色保持一致
 //            tintManager.setStatusBarTintResource(R.color.color_white);
 //        }
-        getSwipeBackLayout().setEdgeSize(600);//设置滑动返回的范围
+        getSwipeBackLayout().setEdgeSize(300);//设置滑动返回的范围
         ButterKnife.bind(this);
         allActivity.add(this);
         initActionbar();

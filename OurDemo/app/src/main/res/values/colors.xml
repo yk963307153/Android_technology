@@ -7,4 +7,7 @@
 
     <color name="app_bg">#F2F2F2</color>
     <color name="fr_tab_indicator">#FF6219</color>
+    <color name="bg_grey">#909090</color>
+    <color name="font_orange">#FD693C</color>
+    <color name="font_grey">#717171</color>
 </resources>
