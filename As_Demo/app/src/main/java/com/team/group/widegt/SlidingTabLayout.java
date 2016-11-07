@@ -1,5 +1,6 @@
 package com.team.group.widegt;
 
+
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Typeface;
@@ -16,7 +17,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.team.group.ourlibrary.R;
+import com.team.group.R;
 
 import org.xmlpull.v1.XmlPullParser;
 

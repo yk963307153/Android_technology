@@ -79,7 +79,7 @@ public abstract class BaseActivity extends SwipeBackActivity {
 //            //设置状态栏与标题栏颜色保持一致
 //            tintManager.setStatusBarTintResource(R.color.color_white);
 //        }
-        getSwipeBackLayout().setEdgeSize(300);//设置滑动返回的范围
+        getSwipeBackLayout().setEdgeSize(100);//设置滑动返回的范围
         ButterKnife.bind(this);
         allActivity.add(this);
         initActionbar();
