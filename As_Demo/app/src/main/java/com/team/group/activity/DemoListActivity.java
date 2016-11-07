@@ -10,6 +10,9 @@ import com.team.group.model.PagerInfo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * viewpager 带滑动
+ */
 public class DemoListActivity extends BaseTabActivity {
 
 
