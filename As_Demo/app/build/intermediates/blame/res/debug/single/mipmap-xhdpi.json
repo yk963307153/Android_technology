@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lijiafu/Android_YK_technology/As_Demo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/icon_back.png",
+        "source": "/Users/lijiafu/Android_YK_technology/As_Demo/app/src/main/res/mipmap-xhdpi/icon_back.png"
+    },
+    {
+        "merged": "/Users/lijiafu/Android_YK_technology/As_Demo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/lijiafu/Android_YK_technology/As_Demo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]
