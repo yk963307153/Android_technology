@@ -3,7 +3,7 @@ package com.team.group.adapter;
 import android.content.Context;
 
 import com.team.group.R;
-import com.team.group.api.GroupResponse;
+import com.team.group.api.response.GroupResponse;
 import com.team.group.base.BaseListAdapter;
 import com.team.group.base.ViewHolder;
 

@@ -5,7 +5,7 @@ import android.widget.AdapterView;
 
 import com.team.group.R;
 import com.team.group.adapter.GroupActiveAdapter;
-import com.team.group.api.GroupResponse;
+import com.team.group.api.response.GroupResponse;
 import com.team.group.base.BaseListAdapter;
 import com.team.group.base.BaseListFragment;
 import com.team.group.utils.DialogUtils;

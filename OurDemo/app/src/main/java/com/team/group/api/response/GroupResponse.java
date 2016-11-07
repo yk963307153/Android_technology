@@ -1,4 +1,4 @@
-package com.team.group.api;
+package com.team.group.api.response;
 
 /**
  * Created by Ocean on 6/26/16.
