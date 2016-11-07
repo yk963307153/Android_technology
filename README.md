@@ -89,3 +89,8 @@ allprojects {
 <com.team.group.ourlibrary.widget.ContainsEmojiEditText
       android:layout_width="wrap_content"
       android:layout_height="wrap_content" />
+      
+```
+---
+添加依赖后出现找不到资源文件的情况参考：http://blog.csdn.net/xuguobiao/article/details/50913390
+---
