@@ -7,5 +7,41 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!-- ################################### our app them start ################################### -->
+    <style name="_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/app_bg</item>
+        <item name="actionBarStyle">@style/ClubToolbar</item>
+    </style>
 
+    <style name="ClubToolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+    <!-- ###################################  our app them start ################################### -->
+
+    <!-- ################################### Dialog对话框 start ################################### -->
+    <!-- Dialog对话框 -->
+    <style name="MyLoadDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- ################################### Dialog对话框 end ################################### -->
 </resources>
