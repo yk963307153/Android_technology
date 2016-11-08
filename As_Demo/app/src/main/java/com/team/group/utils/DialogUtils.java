@@ -14,8 +14,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.team.group.ourlibrary.R;
-
+import com.team.group.R;
 
 /**
  * 弹出 loading  确认框等

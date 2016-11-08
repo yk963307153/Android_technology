@@ -5,8 +5,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -56,6 +58,25 @@ public class JsonUtils {
             list.add(value);
         }
         return list;
+    }
+
+    /**
+     * 对Map进行key的升序排序
+     *
+     * @param map
+     * @return
+     */
+    public static LinkedHashMap<String, Object> sortMapByKey(Map<String, Object> map) {
+        if (map.isEmpty()) {
+            return null;
+        }
+        Object[] keys = map.keySet().toArray();
+        Arrays.sort(keys);
+        LinkedHashMap<String, Object> lm = new LinkedHashMap<>();
+        for (int i = 0; i < keys.length; i++) {
+            lm.put(keys[i].toString(), map.get(keys[i]));
+        }
+        return lm;
     }
 
 

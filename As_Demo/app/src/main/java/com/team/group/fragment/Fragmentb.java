@@ -14,7 +14,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class Fragmentb extends BaseListFragment<GroupResponse> {
+public  class Fragmentb extends BaseListFragment<GroupResponse> {
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        if (isVisibleToUser) {
+            DialogUtils.errorDialog(getActivity(), "第二个页面出现在屏幕!");
+        }
+        super.setUserVisibleHint(isVisibleToUser);
+    }
 
 
     private List<GroupResponse> mResponses = new ArrayList<>();
@@ -43,6 +51,5 @@ public class Fragmentb extends BaseListFragment<GroupResponse> {
         }
         setState(groupResponses, "暂无信息");
     }
-
 
 }

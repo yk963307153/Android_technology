@@ -16,7 +16,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        debug {
+//            minifyEnabled true
+//            proguardFiles 'proguard-rules.pro'
+        }
     }
+
 }
 
 dependencies {
@@ -29,13 +34,18 @@ dependencies {
     //这里没有使用远端compile 这是一个我们自己尝试写的依赖
     compile project(':libraryUtils')
     //这是远端依赖
-//    compile 'com.github.yk963307153:Android_technology:V0.0.1'
+//    compile 'com.github.yk963307153:Android_technology:V0.0.2'
     //注解框架
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     //RxAndroid
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.1.6'
+    //Rx控件
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    compile 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0'
+    compile 'com.jakewharton.rxbinding:rxbinding-design:0.4.0'
+    compile 'com.jakewharton.rxbinding:rxbinding-recyclerview-v7:0.4.0'
     //retrofit and picasso
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'

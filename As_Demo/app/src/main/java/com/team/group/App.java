@@ -37,6 +37,9 @@ public class App extends Application {
         return appContext;
     }
 
+    public static App getInstance() {
+        return sInstance;
+    }
 
     public static String getApplicationName() {
         String appName = "";

@@ -7,7 +7,7 @@
     android:paddingTop="25dp"
     android:paddingLeft="50dp"
     android:paddingRight="50dp"
-    android:background="@drawable/pop_shap_white_bg"
+    android:background="@drawable/ppw_shap_white_bg"
     android:paddingBottom="25dp">
 
 

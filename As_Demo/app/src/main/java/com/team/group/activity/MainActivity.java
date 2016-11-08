@@ -57,4 +57,5 @@ public class MainActivity extends BaseActivity {
     public void doFailSomething() {
         showShorToast("未权限成功回调");
     }
+
 }

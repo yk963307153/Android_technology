@@ -20,21 +20,18 @@ public abstract class BaseFragment extends Fragment {
     protected Subscription mSubscription;
     public String TAG = getClass().getSimpleName();
 
-    /**
-     * Fragment 可见时操作
-     */
-    protected abstract void onVisible();
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(setResID(), container, false);
         unbinder = ButterKnife.bind(this, view);
-        onVisible();
+        initView();
         return view;
 
     }
 
+
+    protected abstract void initView();
     protected abstract int setResID();
 
 
@@ -45,6 +42,10 @@ public abstract class BaseFragment extends Fragment {
         }
         super.onDestroyView();
         unbinder.unbind();
+    }
+
+    protected void showProgress() {
+        ((BaseActivity) getActivity()).showLoading();
     }
 
     protected void showProgress(boolean isCancle, String msg) {

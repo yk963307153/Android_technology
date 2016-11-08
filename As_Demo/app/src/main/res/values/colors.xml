@@ -15,4 +15,6 @@
     <color name="font_color_black">#282828</color>
     <color name="color_black">#000000</color>
     <color name="color_white">#ffffff</color>
+    <color name="color_FF4F1D">#FF4F1D</color>
+    <color name="color_grey">#D9D9D9</color>
 </resources>

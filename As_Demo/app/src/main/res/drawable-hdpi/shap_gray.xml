@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--是否选中-->
+    <item android:drawable="@drawable/shap_orange" android:state_pressed="true" />
+    <item android:drawable="@drawable/shape_btn_gray_light" android:state_pressed="false" />
+    <item android:drawable="@drawable/shape_btn_gray_light" />
+</selector>

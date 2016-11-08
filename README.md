@@ -29,6 +29,7 @@ Android Studio中 使用插件会使开发更高效：https://github.com/zzz4050
 
 另一种使用百分比解决：https://github.com/JulienGenoud/android-percent-support-lib-sample
 
+
 ---
 
 开发中可使用的框架：http://mp.weixin.qq.com/s？__biz=MzA3MDMyMjkzNg==&mid=2652261699&idx=1&sn=d9b0514c22062c8f76c828a427d6c40d&scene=23&srcid=0907sSKUJ9GhZzxKJxcIjCy1#rd
@@ -38,6 +39,15 @@ Android Studio中 使用插件会使开发更高效：https://github.com/zzz4050
 状态栏：https://github.com/laobie/StatusBarUtil
 
 Android开发人员不得不收集的代码(持续更新中)：https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md
+
+android RxAndroid:https://github.com/ReactiveX/RxAndroid
+
+android rx等等:https://github.com/JakeWharton/RxBinding
+http://www.cnblogs.com/zhaoyanjun/p/5535651.html
+
+android retroit传送:https://github.com/WuXiaolong/AndroidMVPSample
+
+retrofit 简单参数含义：http://blog.csdn.net/fuhao476200/article/details/52980318
 
 ---
 开发中可能用到的效果：
@@ -67,7 +77,7 @@ Gradle:
 
 ```
 dependencies {
-	compile 'com.github.yk963307153:Android_technology:V0.0.1'
+	compile 'com.github.yk963307153:Android_technology:V0.0.2'
 }
 ```
 如果Sycn Now后不能通过，在最外层Gradle中加入：

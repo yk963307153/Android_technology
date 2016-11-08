@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:orientation="vertical">
+
+    <com.team.group.ourlibrary.widget.ContainsEmojiEditText
+        android:id="@+id/ed_check"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="查询车次" />
+
+    <Button
+        android:id="@+id/bt_check"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:background="@drawable/shap_orange"
+        android:text="查询"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/tool_bar_title_black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:text="测试" />
+
+</LinearLayout>

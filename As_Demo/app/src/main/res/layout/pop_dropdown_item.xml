@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_edit_white_bg"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <!--下拉常见问题-->
+    <TextView
+        android:id="@+id/item_pop_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/item_pop_tv2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:singleLine="true"-->
+    <!--android:ellipsize="marquee"-->
+    <!--android:marqueeRepeatLimit="marquee_forever"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:textColor="@color/ias_red"-->
+    <!--android:textSize="12sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/item_pop_tv3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:singleLine="true"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:textSize="12sp" />-->
+</LinearLayout>
+
+
+
