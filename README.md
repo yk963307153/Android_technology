@@ -77,7 +77,7 @@ Gradle:
 
 ```
 dependencies {
-	compile 'com.github.yk963307153:Android_technology:V0.0.2'
+	compile 'com.github.yk963307153:Android_technology:V0.0.4'
 }
 ```
 如果Sycn Now后不能通过，在最外层Gradle中加入：
