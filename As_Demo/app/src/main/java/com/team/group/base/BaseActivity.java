@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.team.group.R;
 import com.team.group.ourlibrary.utils.SystemBarTintManager;
+import com.team.group.ourlibrary.utils.ToastUtils;
 import com.team.group.utils.DialogUtils;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -54,8 +55,6 @@ public abstract class BaseActivity extends SwipeBackActivity {
     ImageView ivRight;
 
     public LinearLayout llBar;
-
-    private Toast mToast = null;
 
 
     /**
@@ -239,6 +238,8 @@ public abstract class BaseActivity extends SwipeBackActivity {
         if (null != mSubscription) {
             mSubscription.unsubscribe();
         }
+
+        Toast mToast = ToastUtils.getmToast();
         if (mToast != null) {
             mToast.cancel();
         }
@@ -257,17 +258,36 @@ public abstract class BaseActivity extends SwipeBackActivity {
     }
 
 
-    public void toast(String msg) {
-        if (mToast == null) {
-            mToast = Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT);
-        } else {
-            mToast.setText(msg);
-        }
-        mToast.show();
+    public void showShorToast(String msg) {
+        ToastUtils.showShortToast(this, msg);
     }
 
+    public void showShorToast(int resId) {
+        ToastUtils.showShortToast(this, resId);
+    }
+
+    public void showLongToast(String msg) {
+        ToastUtils.showLongToast(this, msg);
+    }
+
+    public void showLongToast(int resId) {
+        ToastUtils.showLongToast(this, resId);
+    }
+
+//    public void showShorToast(String type, String msg) {
+//        ToastUtils.showShortToast(this, type, msg);
+//    }
+//
+//    public void showShorToast(String type, int resId) {
+//        ToastUtils.showShortToast(this, type, resId);
+//    }
+
     public void showLoading() {
-        dialog = DialogUtils.createLoadingDialog(this, true);
+        dialog = DialogUtils.createLoadingDialog(this, "正在加载中", false);
+    }
+
+    public void showLoading(boolean isCancle, String msg) {
+        dialog = DialogUtils.createLoadingDialog(this, msg, isCancle);
     }
 
     public void hideLoading() {

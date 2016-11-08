@@ -27,9 +27,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     //这里没有使用远端compile 这是一个我们自己尝试写的依赖
-//    compile project(':libraryUtils')
+    compile project(':libraryUtils')
     //这是远端依赖
-    compile 'com.github.yk963307153:Android_technology:V0.0.1'
+//    compile 'com.github.yk963307153:Android_technology:V0.0.1'
     //注解框架
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
@@ -43,6 +43,10 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.3.1'
     compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
+    //6.0权限
+    compile 'com.lovedise:permissiongen:0.0.6'
+    //SharedPreferences
+    compile 'com.scottyab:secure-preferences-lib:0.1.4'
     compile project(':swipeback')
     compile project(':xrefreshView')
 }
