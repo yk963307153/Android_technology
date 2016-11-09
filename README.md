@@ -58,6 +58,7 @@ http://www.open-open.com/lib/view/open1411443332703.html
 
 ----
 
+
 ### demo项目中有完整的框架以及一些问题的解决，正在完善。。。
 
 # 这些都正在筹划中。。。
@@ -65,3 +66,43 @@ http://www.open-open.com/lib/view/open1411443332703.html
 ### 前期为邀请方式
 ----
 
+
+##这是一个禁用表情图的套件，避免提交信息时发生服务器500的错误
+![example](example.jpg)
+
+### Download
+
+-------
+
+Gradle:
+
+
+```
+dependencies {
+	compile 'com.github.yk963307153:Android_technologys:v0.0.8'
+}
+```
+如果Sycn Now后不能通过，在最外层Gradle中加入：
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+
+使用方法:
+
+ 在xml文件中引入ContainsEmojiEditText
+
+```
+<com.team.group.ourlibrary.widget.ContainsEmojiEditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+      
+```
+---
+添加依赖后出现找不到资源文件的情况参考：http://blog.csdn.net/xuguobiao/article/details/50913390
+---
