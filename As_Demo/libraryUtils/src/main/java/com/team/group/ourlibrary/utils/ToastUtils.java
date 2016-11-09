@@ -9,6 +9,7 @@ import static com.team.group.ourlibrary.utils.MyToast.mToastMsg;
 
 /**
  * 吐司相关工具类
+ * 防止重复操作
  */
 public class ToastUtils {
     private static Toast mToast = null;
@@ -114,7 +115,7 @@ public class ToastUtils {
      */
     public static void showShortToast(Context context, String type, String msg) {
         if (!TextUtils.isEmpty(msg) && !"".equals(msg.trim())) {
-            showMyToast(context, type, msg);
+            showMyToast(context, type, msg,Toast.LENGTH_SHORT);
         }
     }
 
@@ -128,7 +129,7 @@ public class ToastUtils {
     public static void showShortToast(Context context, String type, int resId) {
         String msg = context.getString(resId);
         if (!TextUtils.isEmpty(msg) && !"".equals(msg.trim())) {
-            showMyToast(context, type, msg);
+            showMyToast(context, type, msg,Toast.LENGTH_SHORT);
         }
     }
 
@@ -141,7 +142,7 @@ public class ToastUtils {
      */
     public static void showLongToast(Context context, String type, String msg) {
         if (!TextUtils.isEmpty(msg) && !"".equals(msg.trim())) {
-            showMyToast(context, type, msg);
+            showMyToast(context, type, msg,Toast.LENGTH_LONG);
         }
     }
 
@@ -155,11 +156,11 @@ public class ToastUtils {
     public static void showLongToast(Context context, String type, int resId) {
         String msg = context.getString(resId);
         if (!TextUtils.isEmpty(msg) && !"".equals(msg.trim())) {
-            showMyToast(context, type, msg);
+            showMyToast(context, type, msg,Toast.LENGTH_LONG);
         }
     }
 
-    public static void showMyToast(Context context, String type, String text) {
+    public static void showMyToast(Context context, String type, String text,int duration) {
         if (context == null) {
             return;
         }
@@ -170,7 +171,7 @@ public class ToastUtils {
         }
         if (!TextUtils.isEmpty(text) && !"".equals(text.trim())) {
             if (mToast == null) {
-                mToast = MyToast.createToast(context, type, text, Toast.LENGTH_LONG);
+                mToast = MyToast.createToast(context, type, text, duration);
             } else {
                 mToastMsg.setText(text);
             }

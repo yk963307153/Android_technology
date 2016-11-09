@@ -11,6 +11,7 @@ import java.util.regex.Pattern;
 public class RegularUtils {
     private final static Pattern emailer = Pattern
             .compile("\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*");
+
     /**
      * 手机号正则
      */

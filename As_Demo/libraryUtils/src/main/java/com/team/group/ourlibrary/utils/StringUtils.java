@@ -13,7 +13,7 @@ import java.util.Date;
  * </pre>
  */
 public class StringUtils {
-
+//正则在 RegularUtils
 
     private StringUtils() {
         throw new UnsupportedOperationException("u can't instantiate me...");
@@ -61,7 +61,37 @@ public class StringUtils {
     public static boolean isSpace(String s) {
         return (s == null || s.trim().length() == 0);
     }
+    /**
+     * 判断调用toString方法的对象是不是null，避免造成空指针异常
+     *
+     * @param
+     * @return 如果传递的参数是null，返回空串，否则返回obj.toString()
+     * <p>
+     * null可以理解为原始类型至于可以把null作为参数只是特殊规定
+     */
+    public static String object2String(Object obj) {
+        String str = obj == null ? "" : obj.toString();
+        return str;
+    }
 
+    /**
+     * 判断给定字符串是否空白串。 空白串是指由空格、制表符、回车符、换行符组成的字符串 若输入字符串为null或空字符串，返回true
+     *
+     * @param input
+     * @return boolean
+     */
+    public static boolean isEmpty(String input) {
+        if (input == null || "".equals(input))
+            return true;
+
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            if (c != ' ' && c != '\t' && c != '\r' && c != '\n') {
+                return false;
+            }
+        }
+        return true;
+    }
 
     /**
      * Unix时间戳转时间字符串
@@ -103,7 +133,6 @@ public class StringUtils {
         date = df.format(aLong);
         return date;
     }
-
 
     /**
      * 判断两字符串是否相等
@@ -496,35 +525,4 @@ public class StringUtils {
         }
     }
 
-    /**
-     * 判断调用toString方法的对象是不是null，避免造成空指针异常
-     *
-     * @param
-     * @return 如果传递的参数是null，返回空串，否则返回obj.toString()
-     * <p>
-     * null可以理解为原始类型至于可以把null作为参数只是特殊规定
-     */
-    public static String object2String(Object obj) {
-        String str = obj == null ? "" : obj.toString();
-        return str;
-    }
-
-    /**
-     * 判断给定字符串是否空白串。 空白串是指由空格、制表符、回车符、换行符组成的字符串 若输入字符串为null或空字符串，返回true
-     *
-     * @param input
-     * @return boolean
-     */
-    public static boolean isEmpty(String input) {
-        if (input == null || "".equals(input))
-            return true;
-
-        for (int i = 0; i < input.length(); i++) {
-            char c = input.charAt(i);
-            if (c != ' ' && c != '\t' && c != '\r' && c != '\n') {
-                return false;
-            }
-        }
-        return true;
-    }
 }

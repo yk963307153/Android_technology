@@ -23,6 +23,7 @@ import com.team.group.api.click.DemoClick;
 import com.team.group.api.response.APIErrorResponse;
 import com.team.group.api.response.DemoResponse;
 import com.team.group.base.BaseFragment;
+import com.team.group.ourlibrary.utils.MD5Utils;
 import com.team.group.ourlibrary.utils.StringUtils;
 import com.team.group.ourlibrary.widget.ContainsEmojiEditText;
 import com.team.group.utils.CountDownUtils;
@@ -57,6 +58,15 @@ public class Fragmenta extends BaseFragment {
 
     @Override
     protected void initView() {
+        tvTitle.append("\n"+MD5Utils.getMD5Convert("a"));
+        tvTitle.append("\n"+MD5Utils.getMD5Convert("https://www.google.com/search?q=android+string+to+md5&oq=android+string+to+md5&aqs=chrome..69i57j69i60l2.409j0j4&sourceid=chrome&ie=UTF-8"));
+        //1秒钟之内只取一个点击事件，防抖操作
+//        RxView.clicks(mbtn).debounce(1000, TimeUnit.MILLISECONDS).subscribe(new Action1<Void>() {
+//            @Override
+//            public void call(Void aVoid) {
+//                showShortToast("1231231");
+//            }
+//        });
         RxView.clicks(mTVReply).subscribe(new Action1<Void>() {
             @Override
             public void call(Void aVoid) {
