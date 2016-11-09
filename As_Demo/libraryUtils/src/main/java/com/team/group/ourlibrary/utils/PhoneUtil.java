@@ -28,7 +28,7 @@ import android.os.Build;
  *
  * @author jingle1267@163.com
  */
-public final class PhoneUtil {
+public class PhoneUtil {
 
     /**
      * Don't let anyone instantiate this class.

@@ -24,7 +24,7 @@ import java.util.regex.Pattern;
  *
  * @author jingle1267@163.com
  */
-public final class RegUtils {
+public class RegUtils {
 
     /**
      * Don't let anyone instantiate this class.

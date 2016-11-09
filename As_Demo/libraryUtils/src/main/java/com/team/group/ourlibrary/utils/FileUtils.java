@@ -73,7 +73,7 @@ import java.util.List;
  *
  * @author jingle1267@163.com
  */
-public final class FileUtils {
+public class FileUtils {
 
     public static final long GB = 1073741824; // 1024 * 1024 * 1024
     public static final long MB = 1048576; // 1024 * 1024

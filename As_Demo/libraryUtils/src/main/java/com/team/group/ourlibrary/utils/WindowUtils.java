@@ -27,7 +27,7 @@ import android.view.Surface;
  *
  * @author zhenguo
  */
-public final class WindowUtils {
+public class WindowUtils {
 
     /**
      * Don't let anyone instantiate this class.

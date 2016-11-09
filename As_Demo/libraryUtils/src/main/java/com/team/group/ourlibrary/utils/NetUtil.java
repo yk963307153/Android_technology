@@ -36,7 +36,7 @@ import java.util.regex.Pattern;
  *
  * @author jingle1267@163.com
  */
-public final class NetUtil {
+public class NetUtil {
 
     /**
      * 判断网络连接是否打开,包括移动数据连接
@@ -229,6 +229,7 @@ public final class NetUtil {
 
     /**
      * 获取URL中参数 并返回Map
+     *
      * @param url
      * @return
      */
@@ -257,6 +258,7 @@ public final class NetUtil {
 
     /**
      * 是否是网络链接
+     *
      * @param url
      * @return
      */

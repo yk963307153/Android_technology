@@ -21,13 +21,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.SystemClock;
 import android.text.TextUtils;
+import android.util.Log;
 
 /**
  * 轮询服务工具类
  *
  * @author jingle1267@163.com
  */
-public final class PollingUtils {
+public class PollingUtils {
 
     private static final boolean DEBUG = true;
     private static final String TAG = "PollingUtils";
@@ -52,8 +53,8 @@ public final class PollingUtils {
                 intent, PendingIntent.FLAG_NO_CREATE);
         if (DEBUG) {
             if (pendingIntent != null)
-                LogUtils.v(TAG, pendingIntent.toString());
-            LogUtils.v(TAG, pendingIntent != null ? "Exist" : "Not exist");
+                Log.v(TAG, pendingIntent.toString());
+            Log.v(TAG, pendingIntent != null ? "Exist" : "Not exist");
         }
         return pendingIntent != null;
     }

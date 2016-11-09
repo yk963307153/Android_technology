@@ -27,7 +27,7 @@ import android.view.animation.ScaleAnimation;
  *
  * @author zhenguo
  */
-public final class AnimationUtils {
+public class AnimationUtils {
 
     /**
      * Don't let anyone instantiate this class.

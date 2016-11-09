@@ -22,7 +22,7 @@ import android.content.Context;
  *
  * @author zhenguo
  */
-public final class RUtils {
+public class RUtils {
 
     public static final String POINT = "";
     public static final String R = "R";

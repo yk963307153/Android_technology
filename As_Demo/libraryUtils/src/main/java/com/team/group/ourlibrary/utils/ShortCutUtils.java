@@ -33,7 +33,7 @@ import com.team.group.ourlibrary.R;
  *         <p/>
  *         需要权限: com.android.launcher.permission.INSTALL_SHORTCUT com.android.launcher.permission.UNINSTALL_SHORTCUT
  */
-public final class ShortCutUtils {
+public class ShortCutUtils {
 
     /**
      * Don't let anyone instantiate this class.

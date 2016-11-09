@@ -27,7 +27,7 @@ import android.view.animation.TranslateAnimation;
  *
  * @author zhenguo
  */
-public final class ViewAnimationUtils {
+public  class ViewAnimationUtils {
 
     /**
      * Don't let anyone instantiate this class.

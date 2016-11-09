@@ -25,7 +25,7 @@ import android.view.inputmethod.InputMethodManager;
  *
  * @author jingle1267@163.com
  */
-public final class DisplayUtils {
+public class DisplayUtils {
 
     /**
      * Don't let anyone instantiate this class.
@@ -102,7 +102,7 @@ public final class DisplayUtils {
      * @return 屏幕宽度
      */
     public static int getScreenW(Activity activity) {
-        DisplayMetrics dm ;
+        DisplayMetrics dm;
         dm = activity.getResources().getDisplayMetrics();
         int w = dm.widthPixels;
         return w;

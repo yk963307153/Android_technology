@@ -58,7 +58,7 @@ import javax.security.auth.x500.X500Principal;
  *
  * @author jingle1267@163.com
  */
-public final class AppUtils {
+public class AppUtils {
 
     private static final boolean DEBUG = true;
     private static final String TAG = "AppUtils";
@@ -510,6 +510,7 @@ public final class AppUtils {
 
     /**
      * 获取设备唯一标识
+     *
      * @param context
      * @return
      */
@@ -530,6 +531,7 @@ public final class AppUtils {
 
     /**
      * 是否是主线程
+     *
      * @return
      */
     public static boolean isMainProcess(Context context) {

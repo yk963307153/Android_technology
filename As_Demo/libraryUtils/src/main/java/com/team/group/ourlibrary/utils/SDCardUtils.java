@@ -24,7 +24,7 @@ import java.io.FileOutputStream;
  *
  * @author jingle1267@163.com
  */
-public final class SDCardUtils {
+public class SDCardUtils {
 
     /**
      * Don't let anyone instantiate this class.

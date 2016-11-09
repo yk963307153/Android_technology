@@ -50,7 +50,7 @@ import java.util.Random;
  *
  * @author jingle1267@163.com
  */
-public final class RandomUtils {
+public class RandomUtils {
 
     public static final String NUMBERS_AND_LETTERS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     public static final String NUMBERS = "0123456789";
