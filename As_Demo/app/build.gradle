@@ -35,7 +35,7 @@ dependencies {
     //这里没有使用远端compile 这是一个我们自己尝试写的依赖
     compile project(':libraryUtils')
     //这是远端依赖
-//    compile 'com.github.yk963307153:Android_technology:V0.0.4'
+//    compile 'com.github.yk963307153:Android_technology:v0.0.6'
     //注解框架
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
