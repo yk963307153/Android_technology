@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
+ * 字符串相关工具类
  * <pre>
  *     author: Blankj
  *     blog  : http://blankj.com
@@ -61,6 +62,7 @@ public class StringUtils {
     public static boolean isSpace(String s) {
         return (s == null || s.trim().length() == 0);
     }
+
     /**
      * 判断调用toString方法的对象是不是null，避免造成空指针异常
      *

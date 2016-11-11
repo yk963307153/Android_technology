@@ -16,7 +16,7 @@
 
 仅仅为项目中遇到的问题 以及解决办法
 ---
-###项目中可能用到的效果以及常见控件，以及项目中问题 多环境打包 安卓前沿技术等，android所有有关集合（这个稍微齐全点）：https://github.com/Tim9Liu9/TimLiu-Android#%E5%8A%A8%E7%94%BB
+###项目中可能用到的效果以及常见控件，以及项目中问题 多环境打包 安卓前沿技术等，android   所有所有所有！！！ 有关集合（这个稍微齐全点）：https://github.com/Tim9Liu9/TimLiu-Android#%E5%8A%A8%E7%94%BB
 
 ---
 以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
