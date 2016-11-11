@@ -16,6 +16,7 @@
 
 仅仅为项目中遇到的问题 以及解决办法
 
+
 ---
 以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
 
@@ -24,6 +25,10 @@
 
 Android Studio中 使用插件会使开发更高效：https://github.com/zzz40500/GsonFormat
 
+
+
+---
+####项目中可能用到的效果以及常见控件：https://github.com/Tim9Liu9/TimLiu-Android#%E5%8A%A8%E7%94%BB
 ---
 开发中适配问题：https://github.com/hongyangAndroid/AndroidAutoLayout
 
@@ -67,7 +72,7 @@ http://www.open-open.com/lib/view/open1411443332703.html
 ----
 
 
-##这是一个禁用表情图的套件，避免提交信息时发生服务器500的错误
+##这是一个禁用表情图的套件，避免提交信息时发生服务器500的错误，但我们不建议您来使用这个库，我们有更好的处理办法，可控制能否表情图输入等功能，这些会在以后更新中完善。
 ![example](example.jpg)
 
 ### Download
