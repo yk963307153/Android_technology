@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ********************************** Android 4.4 主题 ********************************** -->
+
+    <!-- ias app base application theme -->
+    <style name="_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+        <item name="actionBarStyle">@style/ClubToolbar</item>
+    </style>
+
+    <style name="ClubToolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!--<style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+</resources>

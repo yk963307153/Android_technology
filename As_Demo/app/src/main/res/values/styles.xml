@@ -7,10 +7,16 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <!-- ********************************** Android 4.4 之前主题 ********************************** -->
+
     <!-- ################################### our app them start ################################### -->
     <style name="_AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowBackground">@color/app_bg</item>
         <item name="actionBarStyle">@style/ClubToolbar</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
     </style>
 
     <style name="ClubToolbar" parent="Widget.AppCompat.ActionBar">

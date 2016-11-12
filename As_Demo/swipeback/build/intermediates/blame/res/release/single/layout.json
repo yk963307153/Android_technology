@@ -1,19 +1,19 @@
 [
     {
-        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
-        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_select_dialog_material.xml"
-    },
-    {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",

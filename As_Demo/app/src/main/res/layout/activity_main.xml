@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+    <!--tools:text="这是一个我在开发中用到的技术的Demo"-->
 
     <Button
         android:id="@+id/bt_home"

@@ -40,6 +40,9 @@ import rx.functions.Action1;
 import rx.schedulers.Schedulers;
 
 
+/**
+ * 一个普通的fragment
+ */
 public class Fragmenta extends BaseFragment {
 
     @BindView(R.id.tv_title)
@@ -58,8 +61,8 @@ public class Fragmenta extends BaseFragment {
 
     @Override
     protected void initView() {
-        tvTitle.append("\n"+MD5Utils.getMD5Convert("a"));
-        tvTitle.append("\n"+MD5Utils.getMD5Convert("https://www.google.com/search?q=android+string+to+md5&oq=android+string+to+md5&aqs=chrome..69i57j69i60l2.409j0j4&sourceid=chrome&ie=UTF-8"));
+        tvTitle.append("\n" + MD5Utils.getMD5Convert("a"));
+        tvTitle.append("\n" + MD5Utils.getMD5Convert("https://www.google.com/search?q=android+string+to+md5&oq=android+string+to+md5&aqs=chrome..69i57j69i60l2.409j0j4&sourceid=chrome&ie=UTF-8"));
         //1秒钟之内只取一个点击事件，防抖操作
 //        RxView.clicks(mbtn).debounce(1000, TimeUnit.MILLISECONDS).subscribe(new Action1<Void>() {
 //            @Override

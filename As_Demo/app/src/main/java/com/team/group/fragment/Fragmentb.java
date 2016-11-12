@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * 开发中用到的listview
+ */
 public  class Fragmentb extends BaseListFragment<GroupResponse> {
 
     @Override

@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">框架Demo</string>
-    <string name="fragemnt_a">测试1</string>
-    <string name="fragemnt_b">测试2</string>
+    <string name="fragemnt_a">封装adapter1</string>
+    <string name="fragemnt_b">封装adapter2</string>
 </resources>

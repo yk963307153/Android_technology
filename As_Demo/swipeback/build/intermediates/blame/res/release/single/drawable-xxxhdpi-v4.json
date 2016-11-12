@@ -4,12 +4,12 @@
         "source": "/Users/lijiafu/Android_YK_technology/As_Demo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xxxhdpi/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/Users/lijiafu/Android_YK_technology/As_Demo/swipeback/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/Users/lijiafu/Android_YK_technology/As_Demo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/lijiafu/Android_YK_technology/OurDemo/swipeback/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xxxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/lijiafu/Android_YK_technology/As_Demo/swipeback/build/intermediates/res/merged/release/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",

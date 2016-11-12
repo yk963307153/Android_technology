@@ -5,6 +5,8 @@ import com.team.group.R;
 import com.team.group.base.BaseTabActivity;
 import com.team.group.fragment.Fragmenta;
 import com.team.group.fragment.Fragmentb;
+import com.team.group.fragment.Fragmentc;
+import com.team.group.fragment.Fragmentd;
 import com.team.group.model.PagerInfo;
 
 import java.util.ArrayList;
@@ -29,6 +31,13 @@ public class DemoListActivity extends BaseTabActivity {
 
         PagerInfo listNumber = new PagerInfo(new Fragmentb(), R.string.fragemnt_b);
         pagerList.add(listNumber);
+
+
+        PagerInfo listFragmentC = new PagerInfo(new Fragmentc(), "未封装");
+        pagerList.add(listFragmentC);
+
+        PagerInfo listFragmentD = new PagerInfo(new Fragmentd(), "RecycleView");
+        pagerList.add(listFragmentD);
 
         return pagerList;
     }
