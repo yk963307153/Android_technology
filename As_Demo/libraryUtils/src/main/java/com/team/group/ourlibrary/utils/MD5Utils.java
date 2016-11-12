@@ -10,7 +10,7 @@ import java.security.NoSuchAlgorithmException;
 
 public class MD5Utils {
 
-    private static final char hexDigits[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
+    private static final char hexDigits[] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0','a', 'b', 'c', 'd', 'e', 'f'};
 
     //另一种写法
 //    public  static String getMD5Convert(String str){

@@ -125,6 +125,15 @@ public abstract class BaseActivity extends SwipeBackActivity {
         tvLeft.setVisibility(View.GONE);
         tvTitle.setText(getString(title));
     }
+    //左侧无 中间标题 右侧无
+    public void setTitleBar(String title) {
+        tvTitle.setVisibility(View.VISIBLE);
+        ivRight.setVisibility(View.GONE);
+        tvRight.setVisibility(View.GONE);
+        ivLeft.setVisibility(View.GONE);
+        tvLeft.setVisibility(View.GONE);
+        tvTitle.setText(title);
+    }
 
     //左侧返回 中间标题 右侧无
     public void setLeftBackTitleBar(int title) {

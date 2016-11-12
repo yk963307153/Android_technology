@@ -36,7 +36,7 @@ import java.util.regex.Pattern;
  *
  * @author jingle1267@163.com
  */
-public class NetUtil {
+public class NetUtils {
 
     /**
      * 判断网络连接是否打开,包括移动数据连接

@@ -84,7 +84,7 @@ tools可以告诉Android Studio，哪些属性在运行的时候 是被忽略的
 ----
 
 
-##这是一个禁用表情图的套件，避免提交信息时发生服务器500的错误，但我们不建议您来使用这个库，我们有更好的处理办法，可控制能否表情图输入等功能，这些会在以后更新中完善。
+##这是一个禁用表情图的套件，避免提交信息时发生服务器500的错误，但我们不建议您来使用这个库，因为我们有更好的处理办法，可控制能否表情图输入等功能，这些会在以后更新中完善。目前我们已经停止跟新依赖。
 ![example](example.jpg)
 
 ### Download
@@ -96,7 +96,7 @@ Gradle:
 
 ```
 dependencies {
-	compile 'com.github.yk963307153:Android_technologys:v0.0.8'
+	compile 'com.github.yk963307153:Android_technologys:V0.0.1'
 }
 ```
 如果Sycn Now后不能通过，在最外层Gradle中加入：
