@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * 侧滑
+     */
     private void initNavigationView() {
 
         toolbar.setBackgroundColor(ThemeUtils.getToolBarColor());
