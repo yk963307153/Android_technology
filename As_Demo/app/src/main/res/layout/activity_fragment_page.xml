@@ -6,7 +6,7 @@
     android:fitsSystemWindows="true">
 
 
-    <com.team.group.widegt.SlidingTabLayout
+    <com.team.demo.widegt.SlidingTabLayout
         android:id="@+id/sliding_tabs"
         android:layout_width="match_parent"
         android:layout_height="44dp"

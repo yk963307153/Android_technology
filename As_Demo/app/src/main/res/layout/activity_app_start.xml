@@ -4,7 +4,7 @@
     android:id="@+id/activity_app_start"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.team.group.activity.AppStart">
+    tools:context="com.team.demo.activity.AppStart">
 
     <ImageView
         android:id="@+id/iv_entry"
