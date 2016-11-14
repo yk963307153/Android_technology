@@ -13,6 +13,7 @@ import com.team.group.R;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class PopAdapter extends BaseAdapter {
     private LayoutInflater mInflater;
@@ -54,7 +55,7 @@ public class PopAdapter extends BaseAdapter {
         ViewHolder holder;
         if (null == convertView) {
             convertView = mInflater.inflate(R.layout.pop_dropdown_item, null);
-            holder = new ViewHolder();
+            holder = new ViewHolder(convertView);
             holder.mText1 = (TextView) convertView.findViewById(R.id.item_pop_tv1);
             convertView.setTag(holder);
         } else {
@@ -74,8 +75,8 @@ public class PopAdapter extends BaseAdapter {
 //        protected TextView mText2;
 //        @BindView(R.id.item_pop_tv3)
 //        protected TextView mText3;
-//        public ViewHolder(View view) {
-//            ButterKnife.bind(this, view);
-//        }
+        public ViewHolder(View view) {
+            ButterKnife.bind(this, view);
+        }
     }
 }

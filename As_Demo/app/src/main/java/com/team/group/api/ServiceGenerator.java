@@ -51,7 +51,7 @@ import rx.schedulers.Schedulers;
  */
 @SuppressWarnings("all")
 public class ServiceGenerator extends Activity {
-    private final static String BASE_URL = "http://apis.juhe.cn/";
+    private final static String BASE_URL = "https://api.douban.com/";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 //            BuildConfig.BASE_URL.equalsIgnoreCase("http://api.qg.com/adviser/v1/") ?
@@ -126,6 +126,7 @@ public class ServiceGenerator extends Activity {
 //                Log.d("timestamp", timestamp);
 //                Log.d("di", deviceInfo);
 //
+                int maxAge = 0; // read from cache
                 Request request = originalReq.newBuilder()
 //                        .header("Content-Type", "application/json")
 //                        .header("Accept", "application/json")
@@ -134,6 +135,8 @@ public class ServiceGenerator extends Activity {
 //                        .header("sign", signSha1)
 //                        .header("-di-", deviceInfo)
 //                        .method(originalReq.method(), originalReq.body())
+                        .removeHeader("Pragma")
+                        .header("Cache-Control", "public ,max-age=" + maxAge)
                         .build();
 
                 return chain.proceed(request);

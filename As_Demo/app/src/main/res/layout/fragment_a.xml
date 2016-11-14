@@ -4,7 +4,7 @@
     android:layout_height="44dp"
     android:orientation="vertical">
 
-    <com.team.group.ourlibrary.widget.ContainsEmojiEditText
+    <EditText
         android:id="@+id/ed_check"
         android:layout_width="match_parent"
         android:layout_height="40dp"

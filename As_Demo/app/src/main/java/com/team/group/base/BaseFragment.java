@@ -58,11 +58,11 @@ public abstract class BaseFragment extends Fragment {
     }
 
     protected void showShortToast(String msg) {
-        ((BaseActivity) getActivity()).showShorToast(msg);
+        ((BaseActivity) getActivity()).ToastShort(msg);
     }
 
     protected void showShortToast(int resId) {
-        ((BaseActivity) getActivity()).showShorToast(resId);
+        ((BaseActivity) getActivity()).ToastShort(resId);
     }
 
 }

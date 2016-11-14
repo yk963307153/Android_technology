@@ -24,6 +24,18 @@
         <item name="contentInsetStart">0dp</item>
         <item name="contentInsetEnd">0dp</item>
     </style>
+
+    <!-- 状态栏主色调 -->
+    <style name="MyThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--选中状态icon的颜色和字体颜色-->
+        <item name="colorPrimary">@color/font_color_black</item>
+        <item name="colorPrimaryDark">@color/font_color_black</item>
+        <item name="colorAccent">@color/font_color_black</item>
+        <!--正常状态下字体颜色和icon颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
     <!-- ###################################  our app them start ################################### -->
 
     <!-- ################################### Dialog对话框 start ################################### -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <!--启动之前显示页面避免黑/白屏-->
-    <item android:drawable="@color/splash_bg" />
+    <!--<item android:drawable="@color/splash_bg" />-->
     <item android:gravity="fill">
         <bitmap android:src="@mipmap/welcome" />
     </item>

@@ -2,33 +2,85 @@ package com.team.group.activity;
 
 
 import android.content.Intent;
+import android.os.Bundle;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
+import android.view.View;
 
 import com.team.group.R;
-import com.team.group.base.BaseActivity;
+import com.team.group.ourlibrary.utils.ToastUtils;
+import com.team.group.utils.ThemeUtils;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
+import de.hdodenhof.circleimageview.CircleImageView;
 import kr.co.namee.permissiongen.PermissionFail;
 import kr.co.namee.permissiongen.PermissionSuccess;
 
-public class MainActivity extends BaseActivity {
-    //测试拉取下来的项目是否可以正常运行
+
+public class MainActivity extends AppCompatActivity {
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
+
+    @BindView(R.id.id_navigationview)
+    NavigationView idNavigationview;
+
+    @BindView(R.id.activity_main)
+    DrawerLayout drawerlayoutHome;
+
+
     @Override
-    protected void setupView() {
-        setSwipeBackEnable(false);//设置不能滑动返回
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+        // applyKitKatTranslucency();
+        initNavigationView();
 //        setPerMiss();
+
+
     }
 
-    @Override
-    public int setLayoutResID() {
-        return R.layout.activity_main;
+
+    private void initNavigationView() {
+
+        toolbar.setBackgroundColor(ThemeUtils.getToolBarColor());
+
+        // 设置Drawerlayout开关指示器，即Toolbar最左边的那个icon
+        ActionBarDrawerToggle mActionBarDrawerToggle =
+                new ActionBarDrawerToggle(this, drawerlayoutHome, toolbar, R.string.open, R.string.close);
+        mActionBarDrawerToggle.syncState();
+
+        idNavigationview.inflateHeaderView(R.layout.header_nav);
+        View headerView = idNavigationview.getHeaderView(0);
+        CircleImageView sdvHeader = (CircleImageView) headerView.findViewById(R.id.sdv_avatar);
+        sdvHeader.setImageResource(R.drawable.ic_avtar);
+        idNavigationview.inflateMenu(R.menu.menu_nav);
+        idNavigationview.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.nav_menu_feedback:
+                        ToastUtils.showShortToast(MainActivity.this, "测试");
+                        break;
+                    case R.id.nav_menu_setting:
+                        ToastUtils.showShortToast(MainActivity.this, "测试2");
+                        // do something
+                        break;
+                    default:
+                        break;
+
+                }
+                return false;
+            }
+        });
     }
 
-    @Override
-    protected void setTitleBar() {
-        {
-            setTitleBar("主页面");
-        }
-    }
 
     @OnClick(R.id.bt_home)
     public void onClick() {
@@ -46,8 +98,6 @@ public class MainActivity extends BaseActivity {
 //                )
 //                .request();
 //    }
-
-
     /*
     activity中使用
      getSupportFragmentManager().beginTransaction()
@@ -66,12 +116,14 @@ public class MainActivity extends BaseActivity {
 
     @PermissionSuccess(requestCode = 100)
     public void doSomething() {
-        showShorToast("权限成功回调");
+        ToastUtils.showShortToast(this, "权限成功回调");
     }
 
     @PermissionFail(requestCode = 100)
     public void doFailSomething() {
-        showShorToast("未权限成功回调");
-    }
+        {
+            ToastUtils.showShortToast(this, "未权限成功回调");
+        }
 
+    }
 }

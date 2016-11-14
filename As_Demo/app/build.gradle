@@ -30,12 +30,13 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.0'
     testCompile 'junit:junit:4.12'
     //RecycleView
     compile 'com.android.support:recyclerview-v7:24.2.1'
 
     //这里没有使用远端compile 这是一个我们自己尝试写的依赖
-        compile project(':libraryUtils')
+    compile project(':libraryUtils')
     //这是远端依赖
 //    compile 'com.github.yk963307153:Android_technologys:V0.0.1'
     //注解框架
@@ -60,6 +61,8 @@ dependencies {
     compile 'com.lovedise:permissiongen:0.0.6'
     //SharedPreferences
     compile 'com.scottyab:secure-preferences-lib:0.1.4'
+    //圆头像
+    compile 'de.hdodenhof:circleimageview:2.0.0'
 
     //手势滑动返回
     compile project(':swipeback')

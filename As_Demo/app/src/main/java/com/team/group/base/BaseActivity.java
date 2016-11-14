@@ -267,27 +267,27 @@ public abstract class BaseActivity extends SwipeBackActivity {
     }
 
 
-    public void showShorToast(String msg) {
+    public void ToastShort(String msg) {
         ToastUtils.showShortToast(this, msg);
     }
 
-    public void showShorToast(int resId) {
+    public void ToastShort(int resId) {
         ToastUtils.showShortToast(this, resId);
     }
 
-    public void showLongToast(String msg) {
+    public void ToastLong(String msg) {
         ToastUtils.showLongToast(this, msg);
     }
 
-    public void showLongToast(int resId) {
+    public void ToastLong(int resId) {
         ToastUtils.showLongToast(this, resId);
     }
 
-//    public void showShorToast(String type, String msg) {
+//    public void ToastShort(String type, String msg) {
 //        ToastUtils.showShortToast(this, type, msg);
 //    }
 //
-//    public void showShorToast(String type, int resId) {
+//    public void ToastShort(String type, int resId) {
 //        ToastUtils.showShortToast(this, type, resId);
 //    }
 

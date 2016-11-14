@@ -10,15 +10,18 @@
 
 
 #### 目前还没有团队自己的太多内容，一切都在完善中，我们会抽出业余时间来不断完善更改该内容 
+Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等：https://github.com/linroid/AndroidDevTools
 
 ## 
 
 仅仅为项目中遇到的问题 以及解决办法
 ---
-###项目中可能用到的效果以及常见控件，以及项目中问题 多环境打包 安卓前沿技术等，android   所有所有所有！！！ 有关集合（这个稍微齐全点）项目中需要的效果或者遇到的问题建议现在这个里面查找：https://github.com/Tim9Liu9/TimLiu-Android#%E5%8A%A8%E7%94%BB
+###项目中可能用到的效果以及常见控件，以及项目中问题 多环境打包 安卓前沿技术等，android   所有所有所有！！！ 有关集合（这个稍微齐全点）项目中需要的效果或者遇到的问题建议现在这个里面查找：https://github.com/Tim9Liu9/TimLiu-Android#%E5%8A%A8%E7%94%BB 还有 http://mp.weixin.qq.com/s?__biz=MzI0NDYzMzg0OQ==&mid=2247483723&idx=1&sn=d86a0d77085a14923a3031d1f3fe86e3&chksm=e95b98ddde2c11cb5ff8dbc867c69e316d1f26f285bc116f0aaa3915f36e5b2e8ea0200a7579&mpshare=1&scene=23&srcid=1112HuJEyFyEzUNjymCyrzdY#rd
 
 ---
 以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
+
+开源项目：banya，Google I/O 2014，Google play music，ZXing，鲁班（图片压缩工具）
 
 
 恰当的代码编写规范：https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
@@ -27,6 +30,10 @@ Android Studio中 使用插件会使开发更高效：https://github.com/zzz4050
 
 ---
 开发中适配问题：https://github.com/hongyangAndroid/AndroidAutoLayout
+
+缓存问题：https://github.com/JakeWharton/DiskLruCache（内容和图片在从网络上获取到之后都会存入到本地缓存中，因此即使手机在没有网络的情况下依然能够加载出以前浏览过的内容）
+
+开发中log（便于找错）：https://github.com/orhanobut/logger
 
 另一种使用百分比解决：https://github.com/JulienGenoud/android-percent-support-lib-sample
 

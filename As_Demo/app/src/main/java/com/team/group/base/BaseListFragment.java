@@ -189,7 +189,7 @@ public abstract class BaseListFragment<T> extends Fragment {
     protected void showToast(String msg) {
         if (!StringUtils.isNullOrEmpty(msg)) {
 
-            ((BaseActivity) getActivity()).showShorToast(msg);
+            ((BaseActivity) getActivity()).ToastShort(msg);
         }
 
     }
