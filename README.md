@@ -37,12 +37,16 @@ Android Studio中 使用插件会使开发更高效：https://github.com/zzz4050
 
 另一种使用百分比解决：https://github.com/JulienGenoud/android-percent-support-lib-sample
 
+手势：https://github.com/nisrulz/sensey 还有 https://github.com/ikew0ng/SwipeBackLayout
+
+
 
 ---
 
 开发中可使用的框架：http://mp.weixin.qq.com/s？__biz=MzA3MDMyMjkzNg==&mid=2652261699&idx=1&sn=d9b0514c22062c8f76c828a427d6c40d&scene=23&srcid=0907sSKUJ9GhZzxKJxcIjCy1#rd
 
 动画库：https://github.com/thunderrise/android-TNRAnimationHelper
+https://github.com/daimajia/AndroidViewAnimations
 
 状态栏：https://github.com/laobie/StatusBarUtil
 

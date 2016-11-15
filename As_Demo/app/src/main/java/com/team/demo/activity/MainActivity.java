@@ -13,6 +13,7 @@ import android.view.View;
 
 import com.team.demo.R;
 import com.team.demo.ourlibrary.utils.ToastUtils;
+import com.team.demo.ourlibrary.widget.ContainsEmojiEditText;
 import com.team.demo.utils.ThemeUtils;
 
 import butterknife.BindView;
@@ -33,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.activity_main)
     DrawerLayout drawerlayoutHome;
 
+    @BindView(R.id.emjet_demo)
+    ContainsEmojiEditText emjetDemo;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         // applyKitKatTranslucency();
         initNavigationView();
 //        setPerMiss();
-
 
     }
 
