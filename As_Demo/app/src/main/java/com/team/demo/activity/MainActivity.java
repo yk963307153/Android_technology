@@ -3,6 +3,9 @@ package com.team.demo.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.annotation.UiThread;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -10,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 import com.team.demo.R;
 import com.team.demo.ourlibrary.utils.ToastUtils;
@@ -38,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
     ContainsEmojiEditText emjetDemo;
 
 
+    private Handler handler = new Handler();
+    private int index;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,9 +53,63 @@ public class MainActivity extends AppCompatActivity {
         // applyKitKatTranslucency();
         initNavigationView();
 //        setPerMiss();
-
+//每隔一秒运行一次
+        handler.postDelayed(myRunnable, 1000);
+//        new Thread() {
+//            @Override
+//            public void run() {
+//                try {
+//                    Thread.sleep(1);
+//                    handler.post(new Runnable() {
+//                        @Override
+//                        public void run() {
+//                            emjetDemo.setText("update Threafd");
+//                        }
+//                    });
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }.start();
+//        new FileDownloadThread().start();
+        ;
     }
 
+    private MyRunnable myRunnable = new MyRunnable();
+
+    class MyRunnable implements Runnable {
+
+        @Override
+        public void run() {
+            index++;
+            index = index % 3;
+            emjetDemo.setText(String.valueOf(index));
+            handler.postDelayed(myRunnable, 1000);
+        }
+    }
+
+//
+//    public class FileDownloadThread extends Thread {
+//        @Override
+//        public void run() {
+//            Message message = new Message();
+//            message.what = 1;
+//            myHandler.sendMessage(message);
+//        }
+//    }
+//
+//    Handler myHandler = new Handler() {
+//        public void handleMessage(Message msg) {
+//            if (1 == msg.what) {
+////                ...
+//            }
+//            super.handleMessage(msg);
+//        }
+//    };
+/*
+    @UiThread
+    protected void uirefreh() {
+    }*/
 
     /**
      * 侧滑
@@ -88,9 +149,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @OnClick(R.id.bt_home)
-    public void onClick() {
-        startActivity(new Intent(MainActivity.this, DemoListActivity.class));
+    @OnClick({R.id.bt_home, R.id.bt_handler})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.bt_home:
+                startActivity(new Intent(MainActivity.this, DemoListActivity.class));
+            case R.id.bt_handler:
+                startActivity(new Intent(MainActivity.this, HandlerThreadActivity.class));
+            default:
+                ToastUtils.showShortToast(this, "超出范围");
+                break;
+        }
     }
 
 

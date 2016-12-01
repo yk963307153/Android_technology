@@ -50,6 +50,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="viewpager" />
+
+        <Button
+            android:id="@+id/bt_handler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="viewpager" />
     </LinearLayout>
 
     <android.support.design.widget.NavigationView
