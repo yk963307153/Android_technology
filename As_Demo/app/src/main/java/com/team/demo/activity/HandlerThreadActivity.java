@@ -4,6 +4,7 @@ package com.team.demo.activity;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
+import android.support.annotation.UiThread;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
@@ -34,17 +35,24 @@ public class HandlerThreadActivity extends BaseActivity {
 
 
     //创建主线程的handler
-    private Handler handler = new Handler() {
+    Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
-            result = String.format(result, (int) (Math.random() * 3000 + 1000));
-            mTvServiceInfo.setText(Html.fromHtml(result));
+
             Message message = new Message();
-            Log.d(TAG, "handleMessage: Main Handler");
+            uiRefresh();
+            Log.d(TAG, "handleMessage: Main Handler " + Math.random());
             //向子线程发送消息
-            handler.sendMessageDelayed(message, 10000);
+            threadHandler.sendMessageDelayed(message, 1000);
         }
     };
+
+
+    @UiThread
+    private void uiRefresh() {
+        result = String.format(result, (int) (Math.random() * 3000 + 1000));
+        mTvServiceInfo.setText(Html.fromHtml(result));
+    }
 
     @Override
     protected void setupView() {
@@ -55,9 +63,10 @@ public class HandlerThreadActivity extends BaseActivity {
             @Override
             public void handleMessage(Message msg) {
                 Message message = new Message();
+                message.what = 1;
                 Log.d(TAG, "handleMessage:thread Handler");
                 //向主线程发送消息
-                handler.sendMessageDelayed(message, 10000);
+                handler.sendMessageDelayed(message, 1000);
             }
         };
 
@@ -70,7 +79,7 @@ public class HandlerThreadActivity extends BaseActivity {
 
     @Override
     protected void setTitleBar() {
-        setTitleBar("线程");
+        setLeftBackTitleBar("线程");
     }
 
 
