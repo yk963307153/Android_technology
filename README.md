@@ -1,4 +1,4 @@
-# Android_technology
+﻿# Android_technology
 
 > -  在一个月高风黑的晚上，一个素未谋面的大侠说：“探探”app甚好，每每看到大神作品 致敬经典，心怀崇拜之情，然后在四下无人的时候，注册了账号，开始尝试写写东西。发现了写代码的精髓与速度在于---复制粘贴代码的技巧。
 
@@ -21,8 +21,7 @@ Android开发所需的Android SDK、开发中用到的工具、Android开发教�
 ---
 以及一些优秀的资源学习地 例如：http://www.androidcat.com/?step=3&view=CatFragment
 
-开源项目：banya，Google I/O 2014，Google play music，ZXing，鲁班（图片压缩工具）
-
+开源项目：banya，Google I/O 2014，Google play music，ZXing
 
 恰当的代码编写规范：https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
 
